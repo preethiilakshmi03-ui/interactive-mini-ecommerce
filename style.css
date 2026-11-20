@@ -409,7 +409,7 @@ button {
     font-weight: 800;
 }
 
-.add-cart {
+.add-to-cart{
     border: 0;
     border-radius: 9px;
     padding: 11px 14px;
@@ -420,7 +420,7 @@ button {
     transition: 0.3s;
 }
 
-.add-cart:hover {
+.add-to-cart:hover {
     filter: brightness(1.15);
     transform: scale(1.04);
 }
@@ -550,7 +550,7 @@ button {
     flex: 1;
 }
 
-.cart-item-details h4 {
+.cart-item-details h3{
     font-size: 13px;
     margin-bottom: 7px;
 }
@@ -682,7 +682,7 @@ button {
     overflow-y: auto;
 }
 
-.checkout-row {
+.checkout-item {
     display: flex;
     justify-content: space-between;
     gap: 10px;
